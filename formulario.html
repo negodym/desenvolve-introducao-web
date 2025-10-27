@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulários</title>
+    </head>
+    <body>
+    <h1>Formulário - Projeto Desenvolve</h1>
+    <form action="Pagina Destino" method="post">
+        <h2>Dados Pessoais</h2>
+        <p>
+          
+            <label for="nome">Nome: </label>
+            <input type="text" placeholder="Digite Aqui Seu Nome" id="nome">
+        </p>
+        <p>
+          
+            <label for="email">E-mail: </label>
+            <input type="email" placeholder="Digite Aqui Seu e-mail" id="email">
+        </p>
+        <p>
+          
+            <label for="telefone">Telefone: </label>
+            <input type="number" placeholder="Digite Aqui Seu telefone" id="telefone">
+        </p>
+        <h2>Pesquisa</h2>
+        <h3>Responda a proximas 3 perguntas:</h3>
+        <p>
+            Qual o Estado Civil? 
+            <input type="radio" id="solteiro" name="estado-civil">
+            <label for="solteiro">Solteiro</label>
+            <input type="radio" id="casado" name="estado-civil">
+            <label for="casado">Casado</label>
+            <input type="radio" id="divorciado" name="estado-civil">
+            <label for="divorciado">Divorciado</label>
+            <input type="radio" id="naoinf" name="estado-civil">
+            <label for="naoinf">Não quero Informar</label>
+        </p>
+        <p>
+            O que acha do Projeto Desenvolve? 
+            <input type="radio" id="otimo" name="opdesen">
+            <label for="otimo">Otimo</label>
+            <input type="radio" id="bom" name="opdesen">
+            <label for="bom">Bom</label>
+            <input type="radio" id="regular" name="opdesen">
+            <label for="regular">Regular</label>
+            <input type="radio" id="ruim" name="opdesen">
+            <label for="ruim">Ruim</label>
+        </p>
+        
+        <p>
+            Qual Cidade Você realiza o projeto Desenvolve? 
+            <select name="" id="">
+                <option value="">Bom Despacho</option>
+                <option value="">Itabira</option>
+                <option value="">Belo Horizonte</option>
+                <option value="">São Gonçalo do Rio Abaixo</option>
+                <option value="">Santa Maria de Itabira</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" id="termos">
+            <label for="termos">Autorizo(a) ao Projeto Desenvolve a compartilhar minha resposta com Terceiros </label>
+            
+        </p>
+
+        <input type="submit" value="Enviar Pesquisa">
+
+
+    </form>    
+    </body>
+
+</html>
