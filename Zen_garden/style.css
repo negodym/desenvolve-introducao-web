@@ -4,9 +4,9 @@ html{
 	font-family: sans-serif;
 	color:whitesmoke;
 	font-size: 20px;
-  	width: 80%;
-  	max-width: 1280px;
-  	margin: auto;
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
 
 }
 
@@ -39,7 +39,26 @@ aside ul li{
 #design-archives{
   display: none;
 }
-	
+
+.page-wrapper{
+  position: relative;
+}	
+.explanation{
+  width: 60%;
+  border-right: whitesmoke solid 1px ;
+  padding-right: 2%;
+
+}
+
+#design-selection{
+  position: absolute;
+  top: 545px;
+  left: 62%;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
 .main footer{
   margin: 4%;
 
