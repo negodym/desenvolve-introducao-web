@@ -4,9 +4,9 @@ html{
 	font-family: sans-serif;
 	color:whitesmoke;
 	font-size: 20px;
-  	width: 80%;
-  	max-width: 1280px;
-  	margin: auto;
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
 
 }
 
@@ -52,11 +52,22 @@ aside ul li{
 
 #design-selection{
   position: absolute;
-  top: 545px;
+  top: 490px;
   left: 62%;
   padding-left: 1%;
   padding-right: 1%;
 
+}
+
+.design-selection li{
+  border-top: whitesmoke solid 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.design-selection li:last-of-type{
+  border-bottom: whitesmoke solid 1px;
+ 
 }
 
 .supporting footer{
@@ -107,10 +118,24 @@ aside ul li{
   padding: 0.5em;
 }
 
-A{
-	color: yellow;
+.main p:first-of-type::first-letter{
+  font-size: 3em;
+  font-family: serif;
+  float:left;
 }
 
+A{
+	color: yellow;
+  font-weight: bold;
+}
+
+a:hover{
+  color:rgb(105, 105, 4)
+}
+a:visited{
+  font-weight: normal;
+  color: rgb(221, 221, 173);
+}
 
 p {
   text-indent: 1em; /* Indenta parágrafos */
